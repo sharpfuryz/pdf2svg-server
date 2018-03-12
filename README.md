@@ -5,7 +5,7 @@ This project consists of nodejs server (this repo) and [react+redux frontend](ht
 - [Nodejs 8.x](https://nodejs.org/en/)
 - [Expressjs](http://expressjs.com/ru/)
 - [PDF.js](https://mozilla.github.io/pdf.js/)
-- [puppetter](https://github.com/GoogleChrome/puppeteer)
+- [puppeteer](https://github.com/GoogleChrome/puppeteer)
 - [SemanticUI](https://semantic-ui.com/)
 ### Why it is parsed to SVG, not HTML?
 It is possible to parse it to HTML, but in order to make this proof-of-concept faster - I've chosen SVG, because in this case I don't need to do Math on render for text blocks. In fact you can spent 5+ hours to convert this svg to html. Also SVG has advantages if you need to make it is as simple as possible to view it on mobile devices.
